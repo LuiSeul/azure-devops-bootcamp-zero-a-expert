@@ -12,7 +12,7 @@ terraform {
     # AUTHENTIFICATION (choisir une méthode)
     
     # Méthode 1: Access Key (simple)
-    access_key = "adur2Bx/4fF5c21qC+li/YqXqQ6Ij+xoI4VZ00u0a0mZQ4t00Tevc0249KjUP6IAMcvj2SfDV12U+AStCgRhnw=="
+    access_key = ""
 
   }
 }
