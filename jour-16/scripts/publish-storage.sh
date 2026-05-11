@@ -18,7 +18,7 @@ az acr login --name $ACR_NAME
 
 # Création du package OCI
 TEMP_DIR=$(mktemp -d)
-cp -r ../modules/$MODULE_NAME/* $TEMP_DIR/
+cp -r modules/$MODULE_NAME/* $TEMP_DIR/
 
 # Création du manifeste
 cd $TEMP_DIR
