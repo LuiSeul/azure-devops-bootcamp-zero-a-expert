@@ -17,7 +17,7 @@ provider "azurerm" {
 
 # Test 1: Création basique
 run "basic_storage_creation" {
-  command = plan
+  command = apply
   
   assert {
     condition     = azurerm_storage_account.main.name != ""
